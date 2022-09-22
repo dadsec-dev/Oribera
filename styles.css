@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+@font-face {
+    font-family: 'Futura';
+    src: url('/Fonts/Futura\ Book\ font.ttf');
+  }
+
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --blue: #31326f;
+  --light-blue: #258aff;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --color-grey: #e3eef8;
+  --light-grey: #ccc;
+  --dark-grey: #222831;
+  --Dblue: #3300ee;
+  --font6: normal normal normal 22px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+}
+
+@keyframes identifier {
+    from {width: 100%; margin-left: auto; margin-right: auto; border-width: 3px;}
+    to {width: 40%; margin-left: auto; margin-right: auto;}
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+img {
+  width: 100%;
+}
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+.hline{
+   /* width: 40%;
+    margin-left: auto;
+    margin-right: auto;*/
+    animation-name: identifier;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    letter-spacing: 0.15em;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Futura,sans-serif;
+    font-size: 22px;
+    line-height: normal;
+}
+
+.header{
+    width: 100%;
+    max-width: 110rem;
+    margin: 10rem 0;
+    padding: 5rem 0;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-family: Futura;
+    font-size: 20px;
+    margin-top: 9rem;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    line-height: 2;
+}
+
